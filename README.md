@@ -1,5 +1,7 @@
 # Landingpage Boilerplate
 
+Landingpage Boilerplate with NuxtJs and TailwindCSS
+
 ## Build Setup
 
 ```bash
