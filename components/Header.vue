@@ -4,11 +4,19 @@
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
     >
       <div class="pl-4 flex items-center">
-        <Logo class="w-12 h-12" :isStickable="true" :isSticky="isSticky" :isOpen="isOpen" />
+        <Logo class="w-12 h-12"
+          title="Title"
+          logo="assets/logos/logo_dark.png"
+          logoDark="assets/logos/logo.png"
+          :isStickable="true"
+          :isSticky="isSticky"
+          :isOpen="isOpen"
+        />
       </div>
       <div class="block lg:hidden pr-4">
         <button
-          class="flex items-center p-1 text-orange-800 hover:text-gray-900"
+          :class="headerClassListLink"
+          class="flex items-center p-1"
           @click.prevent.stop="onToggleClick"
         >
           <svg

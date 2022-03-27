@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-wrap my-16 h-auto flex justify-center items-center">
     <div class="w-5/6 sm:w-1/2 p-6 ">
-      <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+      <h3 class="text-3xl font-bold leading-none mb-3">
         {{ headline }}
       </h3>
-      <p class="text-gray-700 mb-8">
+      <p class="mb-8">
         {{ content }}
       </p>
     </div>

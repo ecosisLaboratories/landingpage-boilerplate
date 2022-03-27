@@ -1,4 +1,5 @@
-export default {
+// This will automatically load components from `~/components`components: true,
+  export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -27,6 +28,9 @@ export default {
   /*
    ** Global CSS
    */
+
+  // This will automatically load components from `~/components`
+  components: true,
 
   router: {
     scrollBehavior: async (to, from, savedPosition) => {

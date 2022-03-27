@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     fetchImage() {
-      return require(`~/assets/logos/${this.logo}.png`)
+      return require(`~/${this.logo}`)
     }
   }
 }

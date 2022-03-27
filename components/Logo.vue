@@ -5,16 +5,18 @@
     @click="$router.push('/')"
   >
     <!--Icon from: http://www.potlabicons.com/ -->
-    <img src="~/assets/logos/ecosis_transparent_dark.png" alt="" v-if="isSticky || isOpen">
-    <img src="~/assets/logos/ecosis_transparent.png" alt="" v-else>
-    <p :class="(isSticky || isOpen) ? 'text-gray-800' : 'text-white'" class="font-thin pl-2">ecosis</p>
+    <img :src="img()" alt="" v-if="isSticky || isOpen">
+    <img :src="imgDark()" alt="" v-else>
+    <p :class="(isSticky || isOpen) ? 'text-gray-800' : 'text-white'" class="font-thin pl-2">{{ title }}</p>
   </button>
 </template>
 
 <script>
 export default {
-  name: 'Logo',
   props: {
+    title: String,
+    logo: String,
+    logoDark: String,
     isStickable: {
       type: Boolean,
       default: false
@@ -26,6 +28,18 @@ export default {
     isOpen: {
       type: Boolean,
       default: false
+    }
+  },
+  methods: {
+    img() {
+      return require(`~/${this.logo}`)
+    },
+    imgDark() {
+      if (this.logoDark) {
+        return require(`~/${this.logoDark}`)
+      } else {
+        return require(`~/${this.logo}`)
+      }
     }
   },
   computed: {

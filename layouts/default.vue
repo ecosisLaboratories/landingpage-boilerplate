@@ -1,5 +1,5 @@
 <template>
-  <div class="leading-normal tracking-normal text-white gradient">
+  <div class="leading-normal tracking-normal text-white bg-gray-800">
     <Header />
     <nuxt />
     <Footer />
@@ -19,20 +19,6 @@ export default {
 </script>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
 
-.gradient {
-  /* background: linear-gradient(90deg, #25054d 0%, #2af6ff 100%);  */
-  background: linear-gradient(90deg, #7c1dc9 0%, #f49587 100%);
-}
+
 </style>

@@ -8,26 +8,19 @@
       </h1>
       <div class="flex flex-wrap justify-center">
 
-        <Partner logo="elabs_dark" name="eLabs" desc="The community driven Web 3 Laboratories" url="https://elabs.ecosis.io"/>
+        <Partner logo="assets/imgs/image.png" name="Partner A" desc="Description A" url="#"/>
 
-        <Partner logo="cunoro_dark" name="cunoro" desc="The ultimate Payment and Cash Flow Gateway" url="https://cunoro.finance"/>
+        <Partner logo="assets/imgs/image.png" name="Partner B" desc="Description B" url="#"/>
 
-        <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.io"/>
-
-      </div>
+        <Partner logo="assets/imgs/image.png" name="Partner C" desc="Description C" url="#"/>
 
       </div>
+
     </div>
   </section>
 </template>
 
 <script>
-import Partner from '@/components/Partner'
-
 export default {
-  name: 'Partners',
-  components: {
-    Partner
-  }
 }
 </script>
