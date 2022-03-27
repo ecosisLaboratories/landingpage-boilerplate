@@ -18,7 +18,7 @@
     <div class="w-full flex justify-center">
       <a
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
-        href="https://discord.gg/9xejeEcH3N"
+        href="#"
         target="_blank"
       >
         <Telegram class="mr-4"/>

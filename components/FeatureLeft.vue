@@ -3,7 +3,7 @@
     <div class="w-full sm:w-1/2 p-6 mt-6">
       <slot name="svg" />
     </div>
-    <div class="w-full h-auto flex justify-center items-center sm:w-1/2 p-6 mt-6">
+    <div class="w-full h-auto flex justify-center items-center md:w-1/2 p-6 mt-6">
       <div class="align-middle">
         <h3 class="text-3xl font-bold leading-none mb-3">{{ headline }}</h3>
         <p class="mb-8 h-auto">

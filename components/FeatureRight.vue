@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap my-16 h-auto flex justify-center items-center">
-    <div class="w-5/6 sm:w-1/2 p-6 ">
+  <div class="flex flex-wrap my-16 h-auto justify-center items-center">
+    <div class="w-full text-center md:w-1/2 p-6 align-middle">
       <h3 class="text-3xl font-bold leading-none mb-3">
         {{ headline }}
       </h3>
